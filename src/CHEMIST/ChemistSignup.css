@@ -1,0 +1,146 @@
+#signUpnav{
+  align-items: center;
+ position: -webkit-sticky;
+ position: sticky;
+ top: -5px;
+ z-index: 2;
+ background-color:#8DCAC6;
+ box-shadow: 0 0.125rem 0.25rem 0 rgba(150, 87, 87, 0.11);
+}
+
+
+.setShadow{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+
+
+
+#setchemistslide{
+    animation-duration: 2s;
+    animation-name: slideChemistRightIn;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slideChemistRightIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .ChemistimgHW{
+    height: 90%;
+    width:95%;
+  }
+
+  .Chemistavatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  #ChemistImgAnimation{
+    animation-duration: 3s;
+    animation-name: slidechemistLeftin;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidechemistLeftin {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+
+  /* Dark Mode */
+/* 
+
+:root {
+  --font-color: #333;
+  --background-color: #eee;
+  --link-color: cornflowerblue;
+}
+
+[data-theme="dark"] {
+  --font-color: #eee;
+  --background-color: #333;
+  --link-color: lightblue;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+.toggle-theme-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.toggle-theme-wrapper span {
+  font-size: 28px;
+}
+
+.toggle-theme {
+  position: relative;
+  display: inline-block;
+  height: 34px;
+  width: 60px;
+}
+
+.toggle-theme input {
+  display: none;
+}
+
+.slider {
+  background-color:honeydew;
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+}
+
+.slider:before {
+  background-color: #8DCAC6;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+input:checked + .slider {
+  background-color: #1B4262;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} */

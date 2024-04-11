@@ -1,0 +1,49 @@
+.setfixed{
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top:  5px;
+  z-index: 2;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+    .noselect {
+        -webkit-touch-callout: none;
+          -webkit-user-select: none;
+           -khtml-user-select: none;
+             -moz-user-select: none;
+              -ms-user-select: none;
+                  user-select: none;
+          -webkit-tap-highlight-color: transparent;
+      }
+
+      .setBUTTON {
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+        background: #8DCAC6;
+        margin: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: -5px -5px 15px #8DCAC6, 5px 5px 15px #8DCAC6, inset 5px 5px 10px #8DCAC6, inset -5px -5px 10px #8DCAC6;
+        color: #1B4262;
+        font-size: 1.5rem;
+      }
+      
+      .setBUTTON:hover {
+        box-shadow: -5px -5px 15px #8DCAC6, 5px 5px 15px #8DCAC6, inset 5px 5px 10px #8DCAC6, inset -5px -5px 10px #8DCAC6;
+        font-size: 15px;
+        transition: 500ms;
+      }
+      
+      .setBUTTON:focus {
+        outline: none;
+      }
+      
+      .green:hover {
+        color: honeydew;
+      text-shadow: 0px 0px 10px honeydew;
+      font-size: 2rem;
+    }

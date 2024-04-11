@@ -1,0 +1,129 @@
+#Adminnav{
+ 
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  /* position: absolute; */
+  top:  5px;
+  z-index: 2;
+  background-color:#8DCAC6;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
+
+  span {
+    font-weight:800;
+  }
+
+a{
+  color: #8DCAC6;
+}
+
+#AdminSidenav{
+    height: 95vh;
+    /* width: 30vh; */
+    align-items: center;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    /* position: absolute; */
+    top:  5px;
+    z-index: 2;
+    background-color:#8DCAC6;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
+
+.Adminavatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#viewoperatordetails{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+#dashboard{
+    display: grid;
+      place-items: center;
+      height: 70vh;
+      font-size: 32px;
+      font-weight: bold;
+      box-sizing: border-box;
+      /* box-shadow: 0 0.125rem 0.25rem 0 rgba(150, 87, 87, 0.11); */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  }
+
+  a, li, ul{
+    text-decoration: none;
+  }
+
+
+  ul.menu {
+    /* background: #000; */
+    margin: 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  section[id]:before {
+    display: block;
+    height: 38px;   
+    margin-top: -38px; 
+    visibility: hidden;
+    content: "";
+  }
+  
+  ul.menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  ul.menu li a {
+    padding: 10px;
+    display: block;
+    margin-right: 20px;
+  }
+  
+  section {
+    height: 500px;
+  }
+
+#AddOperator{
+    height: 100vh;
+    background-color: #8DCAC6;
+  }
+
+  #AddOperatorDetails{
+    height: 110vh;
+    display: grid;
+      place-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+#setBox{
+  height: 100vh;
+  width: 80vh;
+  margin-top: 7%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: honeydew;
+  border-radius: 50px;
+  box-sizing: border-box;
+  
+}
+
+#texthighlight {
+
+  color: #eee;
+  text-shadow: 
+    0 .5rem .5rem #fff,
+    0 .5rem 1rem #fff,
+    0 .5rem 2rem #8DCAC6,
+    0 .5rem 3rem #8DCAC6,
+    0 .5rem 4rem #8DCAC6,
+    0 .5rem 5rem #8DCAC6,
+    0 .5rem 6rem #8DCAC6,
+    0 .5rem 7rem #8DCAC6,
+    0 .5rem 8rem #8DCAC6;
+}
+
+#dashboard{
+  height: 90vh;
+}

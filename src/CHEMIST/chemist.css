@@ -1,0 +1,67 @@
+#ChemistNavbar{
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top:  5px;
+  z-index: 2;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  
+  }
+
+#setcolorenq{
+  color: honeydew;
+}
+
+/* #Enquiry{
+  margin-top: 5% !important;
+   
+} */
+
+#setmt{
+  margin-top: 5% !important;
+}
+
+#setmtinquiry{
+  margin-top: 25% !important;
+}
+
+.setshadow{
+  margin-top: -10px;
+  /* background-color: red; */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; ;
+
+}
+
+/* ul.menu {
+  background: #000;
+  margin: 0;
+  position: sticky;
+  top: 0;
+}
+
+section[id]:before {
+  display: block;
+  height: 38px;   
+  margin-top: -38px; 
+  visibility: hidden;
+  content: "";
+}
+
+ul.menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.menu li a {
+  padding: 10px;
+  display: block;
+  margin-right: 20px;
+}
+
+section {
+  height: 500px;
+}
+
+.setheight{
+  margin-top: 50% !important;
+} */
